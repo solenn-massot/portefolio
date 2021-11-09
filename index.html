@@ -1,30 +1,181 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
-    <title>Solenn Massot</title>
-  </head>
-  <body>
-    <div class="container">
-      <header>Solenn Massot</header>
-      <main>
-        <div id="about">
-            <div class="custom-shape-divider-bottom-1635156947">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
-                </svg>
+<html>
+    <head>
+        <title>Développeuse fullstack en recherche d'emploi - Solenn Massot</title>
+        <meta charset="utf-8"/>
+        <meta name="author" content="Solenn Massot"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="Hello, je suis Solenn Massot, Développeuse fullstack spécialisée Laravel/PHP, actuellement en recherche d'emploi dans la ville de Marseille, France."/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:title" content="Développeuse fullstack en recherche d'emploi - Solenn Massot"/>
+        <meta property="og:image" content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg"/>
+        <meta property="og:description" content="Hello, je suis Solenn Massot, Développeuse fullstack spécialisé Laravel/PHP, actuellement en recherche d'emploi dans la ville de Marseille, France."/>
+        <meta name="twitter:title" content="Développeuse fullstack en recherche d'emploi - Solenn Massot"/>
+        <meta name="twitter:card" content="summary_large_image"/>
+        <meta name="twitter:image" content="https://nicolasbrondin.github.io/john-doe/src/img/open-graph.jpg"/>
+        <meta name="twitter:description" content="Hello, je suis Solenn Massot, Développeuse fullstack spécialisé Laravel/PHP, actuellement en recherche d'emploi dans la ville de Marseille, France."/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css"/>
+
+        <link rel="favicon" href="./src/img/favicon.png"/>
+    </head>
+    <body>
+        <div class="page">
+            <div class="card" id="person">
+                <img id="person-picture" src="img/avatar.jpg"/>
+                <section>
+                    <h1 id="person-fullname">Solenn Massot</h1>
+                    <h2 id="person-job">Développeuse fullstack</h2>
+                    <p>Hello, je suis <strong id="person-firstname">Solenn Massot</strong>, <strong id="person-position">développeuse fullstack</strong> spécialisée en <strong id="person-speciality">php/Laravel</strong> actuellement <strong id="person-company">en recherche de mon premier emploi</strong> dans la ville de <strong id="person-city">Marseille</strong>.</p>
+                    <div>
+                        <a class="button" target="mailto:solenn.massot@hotmail.fr" id="person-email">M'envoyer un email</a>
+                        <span class="or"> ou </span>
+                        <a target="_blank" class="button" href="img/solenn-massot-cv.pdf">Voir mon CV</a>
+                    </div>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Compétences</h3>
+                    <ul class="list">
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                HTML/CSS
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                PHP
+                                <div class="box-well">
+                                    Langage
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                <span class="skill-favorite fa fa-bolt"></span>
+                                Laravel
+                                <div class="box-well">
+                                    Framework
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                          <div class="skill-box">
+                              Javascript
+                              <div class="box-well">
+                                  Langage
+                              </div>
+                          </div>
+                      </li>
+                        <li>
+                            <div class="skill-box">
+                                Tailwind
+                                <div class="box-well">
+                                    CSS
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skill-box">
+                                Git
+                                <div class="box-well">
+                                    Versioning
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Réalisations</h3>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(img/monaccident.PNG)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">Mon accident </p>
+                            <p class="thumbnail-description">Développement de la partie admin, facture, statistiques</p>
+                            <div class="thumbnail-footer">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                        <div class="thumbnail-cover" style="background-image: url(img/iatros.png)"></div>
+                        <div class="thumbnail-content">
+                            <span class="badge">Application</span>
+                            <p class="thumbnail-title">Iatros</p>
+                            <p class="thumbnail-description">Développement de la partie admin, paiement en plusieurs fois et différé avec l'API Stripe</p>
+                            <div class="thumbnail-footer">
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="thumbnail" >
+                      <div class="thumbnail-cover" style="background-image: url(img/Pokedex.PNG)"></div>
+                      <div class="thumbnail-content">
+                          <span class="badge">Application</span>
+                          <p class="thumbnail-title">Pokedex</p>
+                          <p class="thumbnail-description">Réalisation d'un pokedex avec scroll infini et animation sur les images en javascript</p>
+                          <div class="thumbnail-footer">
+                              <a href="https://solenn-massot.github.io/pokedex/">En savoir plus</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="thumbnail" >
+                    <div class="thumbnail-cover" style="background-image: url(img/quizz.PNG)"></div>
+                    <div class="thumbnail-content">
+                        <span class="badge">Application</span>
+                        <p class="thumbnail-title">Quizz</p>
+                        <p class="thumbnail-description">Réalisation d'un quizz en javascript avec animation lors de l'envoi des réponses</p>
+                        <div class="thumbnail-footer">
+                            <a href="https://solenn-massot.github.io/quizz/">En savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="thumbnail" >
+                  <div class="thumbnail-cover" style="background-image: url(img/livredor.PNG)"></div>
+                  <div class="thumbnail-content">
+                      <span class="badge">Application</span>
+                      <p class="thumbnail-title">Livre d'or</p>
+                      <p class="thumbnail-description">Projet d'école, réalisation d'un livre d'or avec un systhème d'authentification en php</p>
+                      <div class="thumbnail-footer">
+                          <a href="https://solenn-massot.students-laplateforme.io/livre-or/index.php">En savoir plus</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="thumbnail" >
+                <div class="thumbnail-cover" style="background-image: url(img/livredor.PNG)"></div>
+                <div class="thumbnail-content">
+                    <span class="badge">Application</span>
+                    <p class="thumbnail-title">Botanique</p>
+                    <p class="thumbnail-description">Projet d'école, réalisation d'une site statitque de botanique en HTML/CSS</p>
+                    <div class="thumbnail-footer">
+                        <a href="https://solenn-massot.students-laplateforme.io/botanique/accueil.html">En savoir plus</a>
+                    </div>
+                </div>
             </div>
+                    <hr/>
+                </section>
+                <section>
+                    <h3>Parcours</h3>
+                    <div class="path">
+                        <div class="step">
+                            <p class="step-title">Alternance Green Web - 2020 à 2021</p>
+                            <p>Développeuse back end dans l'entreprise Green Web, utilisation du framework Laravel et de l'API Stripe.</p>
+                        </div>
+                        <div class="step">
+                            <p class="step-title">Coding School La Plateforme - 2019 à 2021</p>
+                            <p>Maquettage d'applications, modélisation de base de données, développement de site web statiques, dynamiques et responsives, installation, configuration et déploiement de cms, mise en production, déploiement continu, conception et modélisation d'applications mobiles</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-        <div id="formations"><span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus minus quas voluptate ipsa, excepturi voluptas consectetur alias, soluta impedit, eum eligendi est reprehenderit quod rerum voluptates sed ratione! Possimus, eius!</span></div>
-        <div id="skills"></div>
-        <div id="projects"></div>
-        <div id="contact"></div>
-      </main>
-      <footer></footer>
-    </div>
-    <script type="text/javascript" src="main.js"></script>
-  </body>
+    </body>
 </html>
